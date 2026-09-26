@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Strumento interno SSI: fuori dai motori di ricerca e dagli archivi. -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+    <meta name="googlebot" content="noindex, nofollow" />
+    <!-- index.html MAI dalla cache: il compilato ha nomi con hash, ma se il
+         browser tiene questo file vecchio continua a caricare il bundle di
+         ieri. Il 14/09 il DV ha collaudato una versione vecchia e ha segnalato
+         difetti già risolti. Il numero di build è in fondo alla barra laterale. -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- 6.4 F1 — IBM Plex Sans (maquette del DV), fallback system-ui -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>SI Soluzioni Impresa — Dashboard Commerciale</title>
+    <!-- 6.14-bis M4 — sulla schermata Home di iPhone e Android: si apre a
+         tutto schermo, col colore SSI sulla barra. Nessun service worker:
+         non serve il funzionamento offline, e un worker vecchio servirebbe
+         una versione vecchia (il contrario del no-cache qui sopra). -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#035c67" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SSI Dashboard" />
+    <link rel="apple-touch-icon" href="./icona-180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icona-192.png" />
+    <script type="module" crossorigin src="./assets/index-mGJhq0OP.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BfbiuAdZ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
