@@ -1,0 +1,1 @@
+import{j as t,ak as o,aB as a}from"./index-C56kBOQB.js";function r(){return t.jsxs("div",{children:[t.jsx(o,{titolo:"Fatturato non svolto",sotto:"voci di fattura emessa su servizi che non risultano fatti: da verificare, o solo da registrare"}),t.jsx(a,{})]})}export{r as default};

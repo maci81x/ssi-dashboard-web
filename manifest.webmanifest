@@ -1,0 +1,17 @@
+{
+  "name": "SSI — Dashboard Commerciale",
+  "short_name": "SSI Dashboard",
+  "description": "Dashboard commerciale di SI Soluzioni Impresa: clienti, ordini, erogazione, giri visite.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3f5f5",
+  "theme_color": "#035c67",
+  "icons": [
+    { "src": "./icona-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
