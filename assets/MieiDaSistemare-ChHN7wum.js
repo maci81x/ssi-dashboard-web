@@ -1,0 +1,1 @@
+import{j as e,aR as a,cV as t}from"./index-B3WVeXm7.js";function r(){return e.jsxs(e.Fragment,{children:[e.jsx(a,{titolo:"Da sistemare",sotto:"Offerte da chiudere o rinnovare e anagrafiche da correggere in Securmars, sui tuoi clienti"}),e.jsx(t,{titolo:"I tuoi casi"})]})}export{r as default};
