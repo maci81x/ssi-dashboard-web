@@ -1,0 +1,1 @@
+import{ag as t,j as i}from"./index-CUBuT_zo.js";function r(){const{valore:o}=t("portafoglio_clienti",!1);return o!==!0?null:i.jsx("a",{className:"btn sm",href:"#/portafoglio?linguetta=agenti","data-link-portafoglio":!0,children:"Portafoglio clienti"})}export{r as L};
